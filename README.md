@@ -1,4 +1,4 @@
-# Created a simple static landing page for high quality image gallery
+## Created a simple static landing page for high quality image gallery
 
 ## Features
 --- Built using React.js
