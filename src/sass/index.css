@@ -1,0 +1,183 @@
+*, *::after, *::before {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  overflow-x: hidden;
+}
+
+.home_main {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url("../Images/homebg.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../Images/homebg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  color: #d2dae2;
+  letter-spacing: 1.5px;
+}
+
+.home_main .header {
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.home_main .header a {
+  text-decoration: none;
+  color: #d2dae2;
+}
+
+.home_main .header .menu_div {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.home_main .header .menu_div ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.home_main .header .menu_div ul li {
+  margin: 0 15px;
+  list-style: none;
+  font-size: 10px;
+}
+
+.home_main .header .menu_div ul li:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+.home_main .menu_icon {
+  display: none;
+}
+
+@media screen and (max-width: 800px) {
+  .menu_div {
+    background: -webkit-gradient(linear, left top, left bottom, from(#232526), to(#414345));
+    background: linear-gradient(to bottom, #232526, #414345);
+    -webkit-transition: .7s all;
+    transition: .7s all;
+    position: absolute;
+    top: 10%;
+    right: 0;
+    width: 0%;
+    height: 90vh;
+  }
+  .menu_div ul {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: 100%;
+    -webkit-box-pack: space-evenly !important;
+        -ms-flex-pack: space-evenly !important;
+            justify-content: space-evenly !important;
+    text-align: center;
+    height: 65vh;
+  }
+  .menu_div ul li {
+    font-size: 20px !important;
+    font-weight: bold;
+  }
+  .menu_icon {
+    display: block !important;
+  }
+}
+
+.hero_div {
+  padding: 20px;
+}
+
+.hero_div .title_div {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 40px;
+}
+
+.hero_div .title_div p {
+  margin-top: 10px;
+  line-height: 25px;
+  font-size: 13px;
+}
+
+.hero_div .content_div {
+  max-width: 800px;
+  margin: 40px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.hero_div .content_div .content_col {
+  position: relative;
+  margin: 10px;
+  -ms-flex-preferred-size: 30%;
+      flex-basis: 30%;
+  -webkit-transition: 0.5s all;
+  transition: 0.5s all;
+  cursor: pointer;
+}
+
+.hero_div .content_div .content_col:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+.hero_div .content_div .content_col img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.hero_div .content_div .content_col p {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5)));
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  text-align: center;
+  letter-spacing: 3px;
+}
+
+@media screen and (max-width: 800px) {
+  .title_div {
+    text-align: left !important;
+  }
+  .content_div {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.footer_div {
+  padding: 5px 0;
+}
+
+.footer_div p {
+  font-size: 12px;
+  text-align: center;
+}
+/*# sourceMappingURL=index.css.map */

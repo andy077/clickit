@@ -1,0 +1,19 @@
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+}
+
+
+// importing sass for different sections
+
+// header scss
+@import './_header';
+
+// hero (content) scss
+@import './_hero';
+
+// footer scss
+@import './_footer';
