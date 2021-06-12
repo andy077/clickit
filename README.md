@@ -1,3 +1,16 @@
+# Created a simple static landing page for high quality image gallery
+
+## Features
+--- Built using React.js
+--- Automatic Deployment
+--- Deployed on Netlify
+--- Live reload in development
+--- Minified Styles and Scripts in production (No changees in original files)
+--- Webpack
+--- Sass compilation (and minification/autoprefixing in production)
+--- ES6+ transpilation (and minification/uglyfication in production)
+--- ES Modules
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
